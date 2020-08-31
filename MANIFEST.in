@@ -1,0 +1,3 @@
+graft cow
+global-exclude *.py[cod] __pycache__ *.so *.ipynb
+recursive-exclude  cow/jupy *
