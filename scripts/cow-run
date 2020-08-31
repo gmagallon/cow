@@ -14,6 +14,6 @@ if __name__ == '__main__':
     # https://docs.python.org/3/library/argparse.html
     # https://docs.python.org/3/howto/argparse.html
     parser = argparse.ArgumentParser(description=description, usage=usage)
-    parser.add_argument('-m', '--message', type=str)
+    parser.add_argument('-m', '--message', type=str, default='hello')
     args = parser.parse_args()
     say_hello(args.message)
